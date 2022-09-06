@@ -1,7 +1,7 @@
 package java7.Autoclosable;
 
 /*
- * Before you start know that something is wrong and the code wont just compile. 
+ * Before you start, know that something is wrong and the code wont just compile. 
  */
 
 public class Exercise {
