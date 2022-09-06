@@ -12,7 +12,7 @@ public class Handler {
 
     public void makeQuery(String query) throws Exception {
         System.out.println("Make query: " + query);
-        if (query.chars().sum() % 2 > 0) {
+        if (query.hashCode() % 10 > 0) {
             throw new Exception();
         }
     }

@@ -13,7 +13,7 @@ public class Example {
         try {
 
             handler.openConnection();
-            handler.makeQuery("b");
+            handler.makeQuery("asddddbs");
         } catch (Exception ex) {
             System.out.println("Something went wrong");
         } finally {

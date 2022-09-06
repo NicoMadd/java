@@ -8,7 +8,7 @@ public class Exercise {
     public static void main(String[] args) {
         Handler handler = new Handler();
         handler.openConnection();
-        handler.makeQuery("Some query");
+        // handler.makeQuery("Some query");
         handler.closeConnection();
     }
 }
